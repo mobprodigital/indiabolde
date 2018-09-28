@@ -1,0 +1,19 @@
+.cont-pop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color: RGBA(0, 0, 0, 0.92);
+    width: 100%;
+    z-index: 100;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-pop button{
+    background-color: #31960b;
+    border: 2px solid gray;
+    padding: 13px 30px;
+    color: #fff;
+    height: 60px;
+}

@@ -1,0 +1,89 @@
+<br>
+<br>
+
+<main class="page-main-content">
+  <div class="container-fluid">
+    <div class="row">
+      <aside class="col-md-1 ad-sidebar ad-sidebar-left">
+        <div [hidden]="true" class="ads">
+          <img src="assets/images/banner/Ad/ad_v1.jpg" alt="">
+        </div>
+      </aside>
+      <div class="col-md-10">
+
+        <div *ngIf="adsList.length > 0 && adsList[0]" class="ads">
+          <a target="_blank" href="{{adsList[0].link}}">
+            <img src="{{adsList[0].path}}" alt="">
+          </a>
+        </div>
+
+        <section class="section">
+          <header class="section-header">
+            <h2 class="section-title section-title-left"> <i _ngcontent-c3="" class="fa fa-bullhorn"></i> Top Wallapers</h2>
+          </header>
+          <div class="section-body">
+              <img src="assets/images/wallpaper/a.png" alt="">
+          </div>
+        </section>
+
+
+        <div *ngIf="adsList.length > 1 && adsList[1]" class="ads">
+          <a target="_blank" href="{{adsList[1].link}}">
+            <img src="{{adsList[1].path}}" alt="">
+          </a>
+        </div>
+
+        <section class="section">
+          <header class="section-header">
+            <h2 class="section-title section-title-left"> <i _ngcontent-c3="" class="fa fa-bullhorn"></i> The Perfect
+              Son</h2>
+          </header>
+          <div class="section-body">
+              <img src="assets/images/wallpaper/b.jpg" alt="">
+          </div>
+        </section>
+
+        <div *ngIf="adsList.length > 2 && adsList[2]" class="ads">
+          <a target="_blank" href="{{adsList[2].link}}">
+            <img src="{{adsList[2].path}}" alt="">
+          </a>
+        </div>
+
+        <section class="section">
+          <header class="section-header">
+            <h2 class="section-title section-title-left"> <i _ngcontent-c3="" class="fa fa-bullhorn"></i> The Perfect
+              Son</h2>
+          </header>
+          <div class="section-body">
+              <img src="assets/images/wallpaper/c.jpg" alt="">
+          </div>
+        </section>
+
+        <div *ngIf="adsList.length > 3 && adsList[3]" class="ads">
+          <a target="_blank" href="{{adsList[3].link}}">
+            <img src="{{adsList[3].path}}" alt="">
+          </a>
+        </div>
+
+        <section class="section">
+          <header class="section-header">
+            <h2 class="section-title section-title-left"> <i _ngcontent-c3="" class="fa fa-bullhorn"></i> The Perfect
+              Son</h2>
+          </header>
+          <div class="section-body">
+              <img src="assets/images/wallpaper/d.jpg" alt="">
+          </div>
+        </section>
+
+        <div *ngIf="adsList.length > 0 && adsList[1]" class="ads">
+          <a target="_blank" href="{{adsList[1].link}}">
+            <img src="{{adsList[1].path}}" alt="">
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+
+  </div>
+</main>
